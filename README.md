@@ -1,7 +1,7 @@
 # word_chain_game
 <br>
 This simple game "Word Chain" is made using Python . It needs only one player who will give a word, then using it's last letter computer will give a word . User also have to give another word starting from the last letter of computer given word.
-<br>
+<br><br>
 Author - Ayusman Satapathy
 <br><br><br><br>
 Version_1.0 -
