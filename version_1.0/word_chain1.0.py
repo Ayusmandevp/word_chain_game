@@ -1,7 +1,7 @@
 #using nltk module
 import nltk
 import random
-nltk.download('words')  # Download word list (only once)
+nltk.download('words')  # Downloading word list
 
 from nltk.corpus import words
 
@@ -28,7 +28,7 @@ def drop_word():
     word = input("Enter your word: ").strip().lower()
     if word in playerWordList:
         print("Already used...Try another one...")
-        return drop_word()  # ✅ must return this!
+        return drop_word() 
     return word
 
     
@@ -58,7 +58,7 @@ print("Welcome",playerName,"Let's Start the game...")
 totalDrop=1
 while True:
     firstWord=input("Enter a Word to begin the game:")
-    #To find any case word is present (make a function)
+    #To find any case word is present
     firstWordCase=[]
     firstWordCase.append(firstWord.lower())
     firstWordCase.append(firstWord.capitalize())
